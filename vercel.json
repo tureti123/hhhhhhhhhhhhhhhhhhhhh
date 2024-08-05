@@ -2,7 +2,7 @@
     "version":2,
     "builds":[
         {
-            "src":"cassecmong.js",
+            "src":"among legend2.mjs",
             "use":"@vercel/node"
         }
     ],
