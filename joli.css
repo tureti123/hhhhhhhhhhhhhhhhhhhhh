@@ -1,0 +1,43 @@
+body { font-family: Arial, sans-serif; }
+#messages2 { list-style-type: none; padding: 0; }
+#messages2 li { padding: 8px; margin-bottom: 10px; background-color: #f4f4f4; }
+
+#T1 li{
+    padding-left: 200px;
+    padding-top: 200px;
+    background-color: aqua;
+}
+#role{
+    background-color: aqua;
+}
+
+#container{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: grey;
+    padding: 15px;
+    width: 700px;
+}
+
+#tableauteam{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: grey;
+    padding: 15px;
+    width: 600px;
+}
+
+.button {
+    background-color: #51c4f5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .button:hover {
+    background-color: #0faff3;
+    color: white;
+  }
