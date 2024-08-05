@@ -1,7 +1,7 @@
 {
   "name": "among-legend2",
   "version": "1.0.0",
-  "main": "cassecmong.js",
+  "main": "among legend.mjs",
   "engines":{
     "node": "20.x"
   },
