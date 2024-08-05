@@ -1,7 +1,7 @@
 {
   "name": "among-legend2",
   "version": "1.0.0",
-  "main": "among legend script.mjs",
+  "main": "among_legend_script.mjs",
   "engines":{
     "node": "20.x"
   },
