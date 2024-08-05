@@ -2,7 +2,7 @@
     "version":2,
     "builds":[
         {
-            "src":"among legend2.mjs",
+            "src":"among legend.mjs",
             "use":"@vercel/node"
         }
     ],
