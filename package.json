@@ -2,21 +2,25 @@
   "name": "among-legend2",
   "version": "1.0.0",
   "main": "among_legend_script.mjs",
-  "engines":{
-    "node": "20.x"
-  },
+  "type": "module",
   "scripts": {
-    "start":"node cassecmong.mjs && among_legend_script.mjs",
+    "start": "node among_legend_script.mjs",
+    "build": "node cassecmong.mjs && npm run build-app",
+    "build-app": "echo \"Building the app...\"",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0",
+    "socket.io": "^4.7.5"
+  },
+  "engines": {
+    "node": "20.x"
   },
   "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "express": "^4.19.2",
-    "mongodb": "^6.8.0",
-    "socket.io": "^4.7.5"
-  }
+  "description": ""
 }
+
