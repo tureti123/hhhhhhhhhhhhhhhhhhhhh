@@ -4,7 +4,7 @@
   "main": "among_legend_script.mjs",
   "type": "module",
   "scripts": {
-    "start": "node among_legend_script.mjs",
+    "start": "node node cassecmong.mjs && among_legend_script.mjs",
     "build": "node cassecmong.mjs && npm run build-app",
     "build-app": "echo \"Building the app...\"",
     "test": "echo \"Error: no test specified\" && exit 1"
