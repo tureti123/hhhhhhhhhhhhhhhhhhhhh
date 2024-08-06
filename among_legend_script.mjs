@@ -44,6 +44,12 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + "/among legend.html");  
 });
 
+const PORT = process.env.PORT || 3000;
+server.listen(PORT, () => {});
+
+try{
+ 
+
 let collec = '';
 const url = 'mongodb+srv://tureti:db7dm8mf@cluster0.tvkiecu.mongodb.net/votreBaseDeDonnées?retryWrites=true&w=majority';
 
@@ -611,7 +617,7 @@ globalThis.testinglimit=function testinglimit(){
     console.log('yo connard')
     }
     
-
-
-const PORT = process.env.PORT || 3000;
-server.listen(PORT, () => {});
+}
+catch{
+ 
+}
