@@ -1,16 +1,21 @@
 {
-    "version":2,
-    "builds":[
-        {
-            "src":"among_legend_script.mjs",
-            "use":"@vercel/node"
-        }
-    ],
-    "routes":[
-        {
-            "src":"/(.*)",
-            "dest": "among_legend_script.mjs"
-        }
-
-    ]
+  "version": 2,
+  "builds": [
+    {
+      "src": "among_legend_script.mjs",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "among_legend_script.mjs"
+    }
+  ],
+  "build": {
+    "env": {
+      "NODE_ENV": "production"
+    },
+    "cmd": "npm run build"
+  }
 }
