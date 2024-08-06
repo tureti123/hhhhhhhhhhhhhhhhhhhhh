@@ -11,11 +11,5 @@
       "src": "/(.*)",
       "dest": "among_legend_script.mjs"
     }
-  ],
-  "build": {
-    "env": {
-      "NODE_ENV": "production"
-    },
-    "cmd": "npm run build"
-  }
+  ]
 }
