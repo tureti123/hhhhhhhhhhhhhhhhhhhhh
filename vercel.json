@@ -9,7 +9,7 @@
     "routes":[
         {
             "src":"/(.*)",
-            "dest":"/"
+            "dest": "among_legend_script.mjs"
         }
 
     ]
