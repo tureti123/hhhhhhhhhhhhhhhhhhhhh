@@ -618,6 +618,6 @@ globalThis.testinglimit=function testinglimit(){
     }
     
 }
-catch{
- 
+catch(error){
+ console.log(error)
 }
